@@ -1,0 +1,43 @@
+{
+  "name": "gestion-employe-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production react-router build",
+    "dev": "react-router dev",
+    "start": "cross-env NODE_ENV=production react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc"
+  },
+  "dependencies": {
+    "@react-router/node": "^7.0.2",
+    "@react-router/serve": "^7.0.2",
+    "dayjs": "^1.11.13",
+    "file-saver": "^2.0.5",
+    "html-to-image": "^1.11.11",
+    "html2canvas": "^1.4.1",
+    "isbot": "^5.1.17",
+    "js-cookie": "^3.0.5",
+    "qrcode": "^1.5.4",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.4.0",
+    "react-router": "^7.0.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.0.2",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "autoprefixer": "^10.4.20",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
